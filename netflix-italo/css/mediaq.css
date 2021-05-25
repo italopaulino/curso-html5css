@@ -1,0 +1,19 @@
+@media screen and (max-width:700px){
+
+    header .container
+    {
+        flex-direction: column;
+    }
+
+    header .container .left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1000px){
+    main .filmedestaque p {
+        width: 50%;
+    }
+}
